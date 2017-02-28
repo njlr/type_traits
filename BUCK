@@ -1,3 +1,5 @@
+include_defs('//BUCKAROO_DEPS')
+
 prebuilt_cxx_library(
   name = 'boost-type-traits',
   header_only = True,
@@ -8,4 +10,5 @@ prebuilt_cxx_library(
   visibility = [
     'PUBLIC',
   ],
+  deps = BUCKAROO_DEPS,
 )

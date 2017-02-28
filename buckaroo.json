@@ -1,0 +1,8 @@
+{
+  "name": "boost-type-traits",
+  "dependencies": {
+    "boost-config": "1.63.0",
+    "boost-detail": "1.63.0",
+    "boost-static-assert": "1.63.0"
+  }
+}
